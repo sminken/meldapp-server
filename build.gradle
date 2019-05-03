@@ -1,0 +1,15 @@
+allprojects {
+  repositories {
+    mavenCentral()
+    mavenLocal()
+  }
+}
+
+task clean(type: Delete) {
+  //noinspection GroovyAssignabilityCheck
+    delete rootProject.buildDir
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.10.2'
+}

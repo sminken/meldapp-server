@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth/auth.iml" filepath="$PROJECT_DIR$/.idea/modules/auth/auth.iml" group="auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/database.iml" filepath="$PROJECT_DIR$/.idea/modules/database/database.iml" group="database" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/database_main.iml" filepath="$PROJECT_DIR$/.idea/modules/database/database_main.iml" group="database" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/database_test.iml" filepath="$PROJECT_DIR$/.idea/modules/database/database_test.iml" group="database" />
+      <module fileurl="file://$PROJECT_DIR$/meldapp-server.iml" filepath="$PROJECT_DIR$/meldapp-server.iml" />
+    </modules>
+  </component>
+</project>

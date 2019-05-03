@@ -1,0 +1,24 @@
+group 'com.google.firebase.quickstart'
+version '1.0'
+
+apply plugin: 'java'
+
+apply plugin: 'application'
+mainClassName = 'nl.ou.applab.meldapp.Database'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    // Firebase Java SDK
+    compile 'com.google.firebase:firebase-admin:6.5.0'
+    // Sundial Job Scheduler
+    compile 'org.knowm:sundial:2.1.1'
+    testImplementation (
+            'org.junit.jupiter:junit-jupiter-api:5.3.1'
+    )
+}
